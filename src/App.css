@@ -1,0 +1,125 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* navbar */
+
+.brand-image{
+  width: 80px;
+  height: 55px;
+}
+.logoName{
+  font-family: serif;
+  font-style: italic;
+}
+.list-name{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+.mart-color{
+  color: coral;
+}
+.cart-icon{
+  width: 30px;
+  height:30px;
+}
+button.navbar-toggler {
+  background: white;
+}
+.brand-link{
+  text-decoration: none;
+  color: white;
+}
+
+
+/* signUP page */
+.side-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.side-image img {
+  
+  width: 500px;
+  height: 500px;
+}
+.signup-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+ padding: 40px;
+ border-radius: 20px;
+
+}
+
+/* login page */
+.login-color{
+  color:blue;
+}
+
+/* about us page  */
+.about-image{
+  position: relative;
+}
+.about-heading {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/* forgotten password */
+
+.forget-image img{
+  width: 100%;
+  height: 500px;
+  
+}
+
+.forget-form{
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+/* cartItem */
+
+.card-item{
+  display: flex;
+  justify-content: center !important;
+}
+
+.content{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+/* footer  */
+.icon{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.icon-image{
+  font-size: 25px;
+  
+}
+.logo-image{
+  width: 80px;
+  height: 80px;
+}
+
+
+
+
+
+
+
